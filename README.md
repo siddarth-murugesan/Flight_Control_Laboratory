@@ -1,6 +1,6 @@
 # Crazyflie Firmware  [![CI](https://github.com/bitcraze/crazyflie-firmware/workflows/CI/badge.svg)](https://github.com/bitcraze/crazyflie-firmware/actions?query=workflow%3ACI)
 
-Project title - Drone manoeuvring with optimal altitude and obstacle detection irrespective of the terrain\
+Project title - Drone manoeuvring with optimal altitude and obstacle detection irrespective of the terrain
 
 The project is over 2021.06 release tag of Crazyflie firmware and implemented on Crazyflie 2.1
 
@@ -22,10 +22,10 @@ https://www.bitcraze.io/2022/01/a-modified-ekf-for-constant-altitude-flights/
 
 ## Notes
 
-Get started with https://www.bitcraze.io/documentation/tutorials/\
+Get started with https://www.bitcraze.io/documentation/tutorials/
 
-Python application scripts - log_script.py and test_python_script.py\
+Python application scripts - log_script.py and test_python_script.py
 
-Checkout logging_variables_info.txt file in the repo for the available new firmware variables to log specific to this project\
+Checkout logging_variables_info.txt file in the repo for the available new firmware variables to log specific to this project
 
 Informal mathematical verification of the modified EKF - https://learn.maplesoft.com/d/CPHLNUNUHOOUINMHGRDUFTBOETMQMKNLNHEOMNCILMGGPSJMBNJQCHKTELOSJPJRNIOHPGKMIFMHBJOKKNIIOTPJOJELONJQFLGH
