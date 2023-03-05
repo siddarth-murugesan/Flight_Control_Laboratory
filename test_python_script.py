@@ -118,8 +118,8 @@ if __name__ == '__main__':
 
         # Start logging and drone movement
         logconf.start()
-        #check_test_f_r_move(scf)
-        time.sleep(5)
+        check_test_f_r_move(scf)
+        #time.sleep(5)
         # End logging
         logconf.stop()
 

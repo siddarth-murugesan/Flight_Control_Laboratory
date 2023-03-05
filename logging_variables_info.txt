@@ -1,0 +1,39 @@
+Special firmware variables available to log via the python script for this project are
+
+1. Logging variable name 		- tofsensormeaF
+Description 				- Measured distance sensor reading from flow deck for state F estimation
+Original variable name in code 	- measuredDistanceF
+
+2. Logging variable name 		- tofsensorpreF
+Description 				- Predicted distance from flow deck for state F estimation
+Original variable name in code 	- predictedDistanceF
+
+3. Logging variable name 		- toferrorF
+Description 				- Error between measured and prediction values for state F estimation
+Original variable name in code 	- errorF
+
+4. Logging variable name 		- tofthresF
+Description 				- Threshold for state F update
+Original variable name in code 	- thresholdF
+
+5. Logging variable name 		- tofsensormeaR
+Description 				- Measured distance sensor reading from multiranger deck for state R estimation
+Original variable name in code 	- measuredDistanceR
+
+6. Logging variable name 		- tofsensorpreR
+Description 				- Predicted distance from multiranger deck for state R estimation
+Original variable name in code 	- predictedDistanceR
+
+7. Logging variable name 		- toferrorR
+Description 				- Error between measured and prediction values for state R estimation
+Original variable name in code 	- errorR
+
+8. Logging variable name 		- tofthresR
+Description 				- Threshold for state R update
+Original variable name in code 	- thresholdR
+
+9. Logging variable name 		- tofdf
+Description 				- Detection factor df parameter
+Original variable name in code 	- detectionFactor
+
+(All the firmware variables are located in - https://github.com/siddarth-murugesan/Flight_Control_Laboratory/blob/main/src/modules/src/kalman_core/mm_tof.c)
